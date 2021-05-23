@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.83.1">
+  <title>AgroConnect - Principal</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container-fluid row">
+
+        <div class="col-10 pl-5">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <span class="px-2">
+              <i class="fas fa-store-alt"></i>
+            </span>
+            <strong>Agro Connect</strong>
+          </a>
+        </div>
+
+        <div class="col-2 text-light my-auto">
+          <p>
+            <span>Bem-vindo :)</span>
+            <br>
+            <a href="./login.html">
+              Fazer Login
+              <i class="fas fa-cart-plus" style="color: #DCDCDC;"></i>
+            </a>
+
+          </p>
+        </div>
+        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>-->
+      </div>
+    </div>
+
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div>
+          <div class="offset-md-1 py-4">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white">Login</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Meus pedido</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Email me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-2 text-center container">
+      <div class="row py-lg-2">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">AgroConnect</h1>
+          <p class="lead text-muted">Sua Feirinha Virtual e Sustentável para Comprar Frutas, Verduras e Legumes Produzidas por Agricultores Familiares
+            Locais.
+          </p>
+        </div>
+      </div>
+
+      <form class="form-inline">
+        <div class="row">
+          <div class="col-sm-8">
+            <input type="text" id="produto" class="form-control" aria-describedby="produtoHelp" placeholder="Pesquisar Produto" style="width: 110%;">
+          </div>
+
+          <div class="col-sm-1">
+            <button class="btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <div class="col-sm-3">
+            <span class="pr-2">
+              <i class="fas fa-cart-plus"></i> Seu Carrinho
+            </span>
+            <span class="badge bg-primary rounded-pill">3</span>
+
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/arroz.png" class="img-fluid" alt="Arroz Comum">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Arroz é um dos pratos preferidos dos Maranhanses, ainda mais com cuxá ou carne seca. Produzido pela Família Nunes!
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/alface.jpeg" class="img-fluid" alt="Alface">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Um salada de alface sempre cai bem, ainda mais com todo o ferro que ele tem. Produzido pela Família Ribeiro!
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/cenoura.jpg" class="img-fluid" alt="Cenoura">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Cenoura tem muito betacaroteno e vitamina A. Produzida pela Família Silva.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/banana.jpg" class="img-fluid" alt="Banana">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Banana é gostosa e rica em potássio. Produzida pela Família Alves.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/mamao.jpg" class="img-fluid" alt="Mamao">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Mamão é bom pra comer a qualquer hora. Produzido pela Família Aveiro!
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/cebola.jpg" class="img-fluid" alt="Cebola">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Cebola é bom para temperar a comida. Prozida pela Família Santos.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/mandioca.jpg" class="img-fluid" alt="Mandioca">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Mandioca gostosa para comer frita, fazer a farinha, ou o Beiju. Produzida pela Família Militão.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/feijao.jpeg" class="img-fluid" alt="Feijao">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Feijão produzido pela Família Coentrão.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="assets/images/tomate.jpg" class="img-fluid" alt="Tomate">
+
+              <div class="card-body">
+                <p class="card-text">
+                  Tomate produzido pela Família Costa e Silva!
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-success">
+                      <span>
+                        Adicionar ao Carrinho
+                        <i class="fas fa-plus"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <small class="text-muted">--</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-end">
+          <a class="btn btn-primary" href="./checkout.html">
+            <i class="fas fa-money-check-alt"></i> Pagar Agora
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Voltar ao Topo</a>
+      </p>
+      <p class="mb-1">
+        AgroConnect &copy; IFMA - Barra do Corda
+        <i class="fas fa-heart" style="color: red"></i>
+        2021
+      </p>
+      <p class="mb-0">Sua Feirinha Virtual e Sustentável!!</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
